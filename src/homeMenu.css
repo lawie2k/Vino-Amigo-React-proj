@@ -1,0 +1,240 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.HeroBox {
+  background-color: #8e1616;
+  width: 100%;
+  height: 675px;
+}
+.Hero {
+  display: flex;
+  justify-self: center;
+  gap: 300px;
+  padding-top: 90px;
+  align-items: center;
+}
+.Herotext {
+  font-size: 120px;
+  line-height: 100%;
+  color: white;
+}
+.HeroPic {
+  width: 500px;
+  height: auto;
+}
+.AboutUs {
+  display: flex;
+  justify-self: center;
+  gap: 300px;
+  align-items: center;
+  margin-top: 200px;
+}
+.AboutText {
+  width: 540px;
+  text-align: center;
+}
+.AboutText h2 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0%;
+}
+.AboutText p {
+  font-size: 16px;
+}
+.Shop {
+  width: 100%;
+  justify-items: center;
+  margin-top: 200px;
+}
+.Shop h2 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.Shop h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.LproductPic {
+  width: 980px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-items: center;
+}
+.Category {
+  margin-top: 100px;
+}
+.Category h4 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+.CategoryPic {
+  display: flex;
+  gap: 40px;
+}
+.CategoryPic h2 {
+  font-size: 28px;
+  margin: 0%;
+}
+.Whyshop {
+  text-align: center;
+  margin-top: 200px;
+}
+.Whyshop h2 {
+  font-size: 48px;
+}
+.box {
+  display: flex;
+  justify-self: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.boxes {
+  width: 350px;
+  height: 200px;
+  background-color: gainsboro;
+  padding-top: 100px;
+}
+.boxes h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.boxes p {
+  width: 215px;
+  justify-self: center;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.loginBG {
+  background-image: url(background.jpg);
+  background-size: cover;
+  height: 900px;
+  padding-top: 100px;
+  margin-top: 300px;
+}
+.login-signup-switch {
+  display: flex;
+  gap: 195px;
+  padding-top: 30px;
+}
+.login-signup-switch button {
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.login-signup-switch button:hover {
+  cursor: pointer;
+  color: #8e1616;
+}
+.login {
+  justify-self: end;
+  margin-right: 280px;
+  margin-top: 100px;
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+.login-signupBtn {
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-self: center;
+}
+.loginInput {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 5px;
+}
+.loginInput label {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.loginInput input {
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+}
+.loginInput button {
+  margin-top: 30px;
+  background-color: #8e1616;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  border: 0;
+  border-style: none;
+}
+/*---------------------------------*/
+.signup {
+  justify-self: end;
+  margin-right: 280px;
+  margin-top: 100px;
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+.login-signupBtn {
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.signupBox {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-self: center;
+}
+.signupInput {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 5px;
+}
+.signupInput label {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.signupInput input {
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+}
+.signupInput button {
+  margin-top: 30px;
+  background-color: #8e1616;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  border: 0;
+  border-style: none;
+}
