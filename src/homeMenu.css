@@ -112,6 +112,57 @@
   font-weight: bold;
   padding-top: 20px;
 }
+.gallery {
+  justify-self: center;
+  text-align: center;
+  margin-top: 200px;
+  overflow: hidden;
+  width: 1150px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+.galleryTxt {
+  font-size: 48px;
+}
+.galleryPics {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  width: max-content;
+  animation: scroll-left 20s linear infinite;
+  gap: 30px;
+}
+.galleryPics:hover {
+  animation-play-state: paused;
+}
+.galleryPics img {
+  height: 300px; /* Optional: adjust as needed */
+  flex-shrink: 0; /* Prevent images from shrinking */
+}
+.galleryPics img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}
 .loginBG {
   background-image: url(background.jpg);
   background-size: cover;

@@ -12,11 +12,19 @@ import Pic5 from "./assets/LatestProductPic/item 5.png";
 import Pic6 from "./assets/LatestProductPic/item 6.png";
 import Pic7 from "./assets/LatestProductPic/item 7.png";
 import Pic8 from "./assets/LatestProductPic/item 8.png";
+import Gpic1 from "./assets/gallery pics/pic1.png";
+import Gpic2 from "./assets/gallery pics/pic2.png";
+import Gpic3 from "./assets/gallery pics/pic3.png";
+import Gpic4 from "./assets/gallery pics/pic4.png";
+import Gpic5 from "./assets/gallery pics/pic5.png";
+import Gpic6 from "./assets/gallery pics/pic6 1.png";
+import Gpic7 from "./assets/gallery pics/pic7.png";
+import Gpic8 from "./assets/gallery pics/pic8.png";
+import Gpic9 from "./assets/gallery pics/pic9.png";
 import "./homeMenu.css";
-import React, { useState } from "react";
+import React from "react";
 
 const homeMenu: React.FC = () => {
-  const [showLogin, setShowLogin] = useState(true);
   return (
     <>
       <div className="HeroBox">
@@ -41,7 +49,7 @@ const homeMenu: React.FC = () => {
         </div>
       </div>
 
-      <div className="Shop">
+      <div className="Shop" id="shop">
         <h2>SHOP</h2>
         <img src={Banner} alt="" />
         <h3>Latest Product</h3>
@@ -99,40 +107,30 @@ const homeMenu: React.FC = () => {
         </div>
       </div>
 
-      <div className="loginBG">
-        {showLogin ? (
-          <div className="login" id="login">
-            <div className="loginBox">
-              <div className="login-signup-switch">
-                <button onClick={() => setShowLogin(true)}>Login</button>
-                <button onClick={() => setShowLogin(false)}>Signup</button>
-              </div>
-              <div className="loginInput">
-                <label>Username</label>
-                <input type="text" />
-                <label>Password</label>
-                <input type="password" />
-                <button>Login</button>
-              </div>
-            </div>
-          </div>
-        ) : (
-          <div className="signup">
-            <div className="signupBox">
-              <div className="login-signup-switch">
-                <button onClick={() => setShowLogin(true)}>Login</button>
-                <button onClick={() => setShowLogin(false)}>Signup</button>
-              </div>
-              <div className="signupInput">
-                <label>Username</label>
-                <input type="text" />
-                <label>Password</label>
-                <input type="password" />
-                <button>Create Account</button>
-              </div>
-            </div>
-          </div>
-        )}
+      <div className="gallery" id="gallery">
+        <div className="galleryTxt">
+          <h2>GALLERY</h2>
+        </div>
+        <div className="galleryPics">
+          <img src={Gpic1} alt="" />
+          <img src={Gpic2} alt="" />
+          <img src={Gpic3} alt="" />
+          <img src={Gpic4} alt="" />
+          <img src={Gpic5} alt="" />
+          <img src={Gpic6} alt="" />
+          <img src={Gpic7} alt="" />
+          <img src={Gpic8} alt="" />
+          <img src={Gpic9} alt="" />
+          <img src={Gpic1} alt="" />
+          <img src={Gpic2} alt="" />
+          <img src={Gpic3} alt="" />
+          <img src={Gpic4} alt="" />
+          <img src={Gpic5} alt="" />
+          <img src={Gpic6} alt="" />
+          <img src={Gpic7} alt="" />
+          <img src={Gpic8} alt="" />
+          <img src={Gpic9} alt="" />
+        </div>
       </div>
     </>
   );

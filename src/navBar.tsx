@@ -10,10 +10,10 @@ function navBar() {
             <a href="">Home</a>
           </li>
           <li>
-            <a href="">Shop</a>
+            <a href="#shop">Shop</a>
           </li>
           <li>
-            <a href="">Gallery</a>
+            <a href="#gallery">Gallery</a>
           </li>
           <li>
             <a href="#login">Login</a>
