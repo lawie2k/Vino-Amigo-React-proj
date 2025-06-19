@@ -4,9 +4,9 @@ const Login: React.FC = () => {
   const [showLogin, setShowLogin] = useState(true);
   return (
     <>
-      <div className="loginBG">
+      <div className="loginBG" id="login">
         {showLogin ? (
-          <div className="login" id="login">
+          <div className="login">
             <div className="loginBox">
               <div className="login-signup-switch">
                 <button onClick={() => setShowLogin(true)}>Login</button>
